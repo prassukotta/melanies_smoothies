@@ -1,11 +1,11 @@
 # Import python packages
 import streamlit as st
-streamlit.title('Customize Your Smmoothie!')
+streamlit.title('Customize Your Smoothie!')
 # from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
 
 # Write directly to the app
-st.title(":cup_with_straw: Customize Your Smmoothie!:cup_with_straw:")
+st.title(":cup_with_straw: Customize Your Smoothie!:cup_with_straw:")
 st.write(
     """Choose the fruits you like in you  Custom Smoothie! (Fresh Friuts).
     """
